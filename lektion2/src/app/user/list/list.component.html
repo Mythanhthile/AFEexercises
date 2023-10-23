@@ -1,0 +1,6 @@
+<p>list works!</p>
+<li *ngFor="let billionaire of billionaires; index as i">
+  {{ billionaire.name }} {{ billionaire.net_worth }}
+  {{ billionaire.nationality }}
+  <a [routerLink]="'details/' + i">Details</a>
+</li>

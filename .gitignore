@@ -4,6 +4,8 @@
 ### Angular ###
 ## Angular ##
 # compiled output
+
+.DS_Store/
 dist/
 tmp/
 app/**/*.js
